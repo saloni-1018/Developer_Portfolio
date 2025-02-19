@@ -169,18 +169,19 @@ const workExperiences = {
     {
       role: "Software Engineer",
       company: "SinghSoft Technologies",
-      companylogo: require("./assets/images/SinghSoftLogo.png"),
+      companylogo: require("./assets/images/SinghSoft.png"),
       date: "Nov 2024 – Present",
       desc: "",
       descBullets: [
-        "I work here as part of the Cloud and DevOps team, managing both Frontend and Backend teams to ensure smooth project delivery.",
-        "My role also involves designing and building scalable cloud infrastructure services, including creating services like EC2, while supporting the development and deployment processes."
+        "Work here as part of the Cloud and DevOps team",
+        "Managing both Frontend and Backend teams to ensure smooth project delivery.",
+        "My role also involves designing and building scalable cloud infrastructure services."
       ]
     },
     {
       role: "Associate Software Engineer",
       company: "Nagarro",
-      companylogo: require("./assets/images/NagarroLogo.png"),
+      companylogo: require("./assets/images/nagarro.webp"),
       date: "Jul 2022 – Sept 2023",
       descBullets: [
         "Engineered and deployed robust full-stack applications, enhancing system performance by 30% through optimized algorithms and efficient code.",
@@ -189,12 +190,12 @@ const workExperiences = {
     },
     {
       role: "Software Engineer Intern",
-      company: "Dotsquares Technologies",
-      companylogo: require("./assets/images/DotSquarresLogo.png"),
+      company: "DotSquares Technologies",
+      companylogo: require("./assets/images/DotSquares.png"),
       date: "Jan 2022 – Jul 2022",
       desc: "",
       descBullets: [
-        "Learned and implemented Power Apps, successfully building Canvas and Model-driven apps to streamline business processes",
+        "Learned and implemented Power Apps, successfully building Mobile & Desktop applications for streamline business processes",
         "Created functions for data flow and retrieved data from Azure Active Directory, enhancing the integration of applications"
       ]
     }
@@ -213,28 +214,28 @@ const openSource = {
 
 const bigProjects = {
   title: "Big Projects",
-  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
+  subtitle: "THESE IDEAS EMPOWER INDIVIDUALS TO GROW AND SOLVE REAL-LIFE PROBLEMS.🚀",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/NaukriWala.png"),
+      projectName: "JobPortal",
+      projectDesc: " Developing a web-based job portal application that allows users to register, log in, search for jobs, and apply for positions. The application also includes an admin panel for managing job postings and companies. ",
       footerLink: [
         {
           name: "Visit Website",
-          url: "http://saayahealth.com/"
+          url: "https://job-portal-mocha-eight.vercel.app/"
         }
         //  you can add extra buttons here.
       ]
     },
     {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/ComingSoon.png"),
+      projectName: "Restuant Management System",
+      projectDesc: "A web-based Restaurant Management System that allows customers to scan a QR code to access the restaurant’s digital menu. The system enables restaurant owners to manage menus, orders, and analytics efficiently through an admin panel.",
       footerLink: [
         {
-          name: "Visit Website",
-          url: "http://nextu.se/"
+          name: "Coming Soon",
+          url: "#"
         }
       ]
     }
