@@ -21,7 +21,7 @@ const illustration = {
 
 const greeting = {
   username: "Pradeep Sajnani",
-  title: "Hi all,Am Pradeep",
+  title: "Hi all, Am Pradeep",
   subTitle: emoji(
     "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / Java and some other cool libraries and frameworks."
   ),
@@ -34,7 +34,7 @@ const greeting = {
 
 const socialMediaLinks = {
   github: "https://github.com/Pradeep7867",
-  linkedin: "https://www.linkedin.com/in/saadpasta/",
+  linkedin: "https://www.linkedin.com/in/pradeep-sajnani-ab99a91b7/",
   gmail: "prdeepsajnani742@gmail.com",
   gitlab: "#",
   facebook: "#",
@@ -65,11 +65,11 @@ https://fontawesome.com/icons?d=gallery */
 
   softwareSkills: [
     {
-      skillName: "html-5",
+      skillName: "Html-5",
       fontAwesomeClassname: "fab fa-html5"
     },
     {
-      skillName: "css3",
+      skillName: "Css3",
       fontAwesomeClassname: "fab fa-css3-alt"
     },
     {
@@ -89,10 +89,6 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-node"
     },
     {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift"
-    },
-    {
       skillName: "npm",
       fontAwesomeClassname: "fab fa-npm"
     },
@@ -105,16 +101,16 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-aws"
     },
     {
-      skillName: "firebase",
-      fontAwesomeClassname: "fas fa-fire"
-    },
-    {
-      skillName: "python",
-      fontAwesomeClassname: "fab fa-python"
-    },
-    {
       skillName: "docker",
       fontAwesomeClassname: "fab fa-docker"
+    },
+    {
+      skillName: "Java",
+      fontAwesomeClassname: "fab fa-java"
+    },
+    {
+      skillName: "firebase",
+      fontAwesomeClassname: "fas fa-fire"
     }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -131,17 +127,14 @@ const educationInfo = {
       subHeader: "Bachelors of Technology in Computer Science",
       duration: "August 2018 - December 2022",
       desc: "Specialization in Cloud Computing & Information Security",
-      descBullets: [
-        "Secured First Division with Distinction (8.1) CGPA"
-        
-      ]
+      descBullets: ["Secured First Division with Distinction (8.1) CGPA"]
     },
     {
       schoolName: "All Saints Sen Sec School,",
       logo: require("./assets/images/AllSaints.png"),
       subHeader: "",
       duration: "September 2016 - June 2018",
-      desc: "Secondary Education: Science & Math’s. ...",
+      desc: "Secondary Education: Science & Math’s. ..."
       // descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
     }
   ]
@@ -178,10 +171,10 @@ const workExperiences = {
       company: "SinghSoft Technologies",
       companylogo: require("./assets/images/SinghSoftLogo.png"),
       date: "Nov 2024 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      desc: "",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "I work here as part of the Cloud and DevOps team, managing both Frontend and Backend teams to ensure smooth project delivery.",
+        "My role also involves designing and building scalable cloud infrastructure services, including creating services like EC2, while supporting the development and deployment processes."
       ]
     },
     {
@@ -189,14 +182,21 @@ const workExperiences = {
       company: "Nagarro",
       companylogo: require("./assets/images/NagarroLogo.png"),
       date: "Jul 2022 – Sept 2023",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      descBullets: [
+        "Engineered and deployed robust full-stack applications, enhancing system performance by 30% through optimized algorithms and efficient code.",
+        "Developed cloud-based solutions on AWS, including Elastic Beanstalk deployments and Lambda functions, ensuring high availability and scalability"
+      ]
     },
     {
       role: "Software Engineer Intern",
       company: "Dotsquares Technologies",
       companylogo: require("./assets/images/DotSquarresLogo.png"),
       date: "Jan 2022 – Jul 2022",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      desc: "",
+      descBullets: [
+        "Learned and implemented Power Apps, successfully building Canvas and Model-driven apps to streamline business processes",
+        "Created functions for data flow and retrieved data from Azure Active Directory, enhancing the integration of applications"
+      ]
     }
   ]
 };
@@ -252,50 +252,47 @@ const achievementSection = {
 
   achievementsCards: [
     {
-      title: "Google Code-In Finalist",
+      title: "AWS Solution Architect Associate ",
       subtitle:
-        "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
-      image: require("./assets/images/codeInLogo.webp"),
-      imageAlt: "Google Code-In Logo",
+        "Validated expertise in designing scalable, secure, and efficient cloud-based solutions on AWS.",
+      image: require("./assets/images/Aws.png"),
+      imageAlt: "AWS Logo",
       footerLink: [
         {
           name: "Certification",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing"
+          url: "https://drive.google.com/file/d/1Rj6Fm7ZL18h0v9EAuvicutiXWCEdP-x1/view?usp=sharing"
         },
         {
           name: "Award Letter",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing"
+          url: "https://drive.google.com/file/d/1Rj6Fm7ZL18h0v9EAuvicutiXWCEdP-x1/view?usp=sharing"
         },
-        {
-          name: "Google Code-in Blog",
-          url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html"
-        }
+        
       ]
     },
     {
-      title: "Google Assistant Action",
+      title: "Microsoft Certified: AZ-900",
       subtitle:
-        "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
-      image: require("./assets/images/googleAssistantLogo.webp"),
-      imageAlt: "Google Assistant Action Logo",
+        "Azure-Fundamentals",
+      image: require("./assets/images/AZ900.jpg"),
+      imageAlt: "AZ-900 ",
       footerLink: [
         {
-          name: "View Google Assistant Action",
-          url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en"
+          name: "Certification",
+          url: "https://drive.google.com/file/d/1Qk5w_5oHeBGMmdrZZvFmUmnfi0GVCRsd/view?usp=drive_link"
         }
       ]
     },
 
     {
-      title: "PWA Web App Developer",
-      subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
-      image: require("./assets/images/pwaLogo.webp"),
-      imageAlt: "PWA Logo",
+      title: "Microsoft Certified: AI-900",
+      subtitle: "Completed Certifcation from Microsoft Azure AI fundamentals",
+      image: require("./assets/images/AI900.jpg"),
+      imageAlt: "AI-900 Certification",
       footerLink: [
         {name: "Certification", url: ""},
         {
           name: "Final Project",
-          url: "https://pakistan-olx-1.firebaseapp.com/"
+          url: "https://drive.google.com/file/d/1zYhvkQoEOMa1mdqrYz8VEJc4UesDxhY1/view?usp=drive_link"
         }
       ]
     }
@@ -312,13 +309,13 @@ const blogSection = {
   displayMediumBlogs: "true", // Set true to display fetched medium blogs instead of hardcoded ones
   blogs: [
     {
-      url: "https://blog.usejournal.com/create-a-google-assistant-action-and-win-a-google-t-shirt-and-cloud-credits-4a8d86d76eae",
+      url: "#",
       title: "Win a Google Assistant Tshirt and $200 in Google Cloud Credits",
       description:
         "Do you want to win $200 and Google Assistant Tshirt by creating a Google Assistant Action in less then 30 min?"
     },
     {
-      url: "https://medium.com/@saadpasta/why-react-is-the-best-5a97563f423e",
+      url: "#",
       title: "Why REACT is The Best?",
       description:
         "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
@@ -339,8 +336,8 @@ const talkSection = {
     {
       title: "Build Actions For Google Assistant",
       subtitle: "Codelab at GDG DevFest Karachi 2019",
-      slides_url: "https://bit.ly/saadpasta-slides",
-      event_url: "https://www.facebook.com/events/2339906106275053/"
+      slides_url: "#",
+      event_url: "#"
     }
   ],
   display: false // Set false to hide this section, defaults to true
@@ -353,9 +350,7 @@ const podcastSection = {
   subtitle: "I LOVE TO TALK ABOUT MYSELF AND TECHNOLOGY",
 
   // Please Provide with Your Podcast embeded Link
-  podcast: [
-    "https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"
-  ],
+  podcast: ["#"],
   display: false // Set false to hide this section, defaults to true
 };
 
@@ -372,8 +367,9 @@ const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+92-0000000000",
-  email_address: "pradeepsajnani742@gmail.com"
+  number: "+91-637XXXXXXX",
+  email_address: "pradeepsajnani742@gmail.com",
+  display : true
 };
 
 // Twitter Section
